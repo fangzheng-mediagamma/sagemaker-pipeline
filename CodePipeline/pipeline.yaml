@@ -101,6 +101,7 @@ Resources:
           phases:
             install:
               commands:
+                - echo "yaml is updated!"
                 - echo "Installing wget and boto3"
                 - pip3 install wget
                 - pip3 install boto3
