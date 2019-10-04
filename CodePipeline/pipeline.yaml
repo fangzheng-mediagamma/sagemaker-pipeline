@@ -139,7 +139,7 @@ Resources:
                 - echo "Installing wget and boto3"
                 - pip3 install wget
                 - pip3 install boto3
-                - pip3 install numpy
+                - pip3 install numpy==1.10.4
             build:
               commands:
               - echo "Running test.py"
@@ -168,7 +168,7 @@ Resources:
                 - echo "Installing wget and boto3"
                 - pip3 install wget
                 - pip3 install boto3
-                - pip3 install numpy
+                - pip3 install numpy==1.10.4
             build:
               commands:
               - echo "Running test.py"
